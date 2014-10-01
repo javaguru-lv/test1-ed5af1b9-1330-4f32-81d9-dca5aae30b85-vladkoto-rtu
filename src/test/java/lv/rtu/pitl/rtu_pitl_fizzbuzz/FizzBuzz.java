@@ -8,6 +8,9 @@ public class FizzBuzz {
 
 	public static String perform(int i) {
 
+		if (1==1)
+			return "OK!";
+		
 		if (i % 3 == 0 && i % 5 == 0) {
 			return FIZZ_BUZZ;
 		}
